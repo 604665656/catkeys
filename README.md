@@ -8,7 +8,10 @@
 - **体力系统**：每局消耗 1 点体力，每 60 秒自动恢复 1 点，每日游玩上限 20 局，离线按时间戳补算
 - **转发得体力**：分享链接并回到页面停留 ≥5 秒即可领取体力，每日最多 3 次、两次间隔 ≥15 秒
 
-> 仓库地址（示例）：<https://github.com/604665656/catkeys>
+> **仓库**：<https://github.com/604665656/catkeys>
+> **开发看板**：<https://github.com/users/604665656/projects/10>
+> **B 站 Toy**：提交审核中（`catkeys-toy.zip` + `cover_1200x900.png`）
+>
 > 如需自行改名，改 `index.html` 里的 `<title>`、`品牌`、`哈士喵` 文案，并重新跑 `tools/build_catkeys.py` 即可。
 
 ---
@@ -65,6 +68,8 @@ catkeys/
 ├── dist/               # TOY 上架包（index.html ≤1MB + assets/ 外置图，见下方「打包上架 TOY」）
 │   ├── index.html
 │   └── assets/         # 哈士喵精灵与三视图等 10 张外置图
+├── catkeys-toy.zip     # TOY 上架包（dist 打包，根目录含 index.html + assets/）
+├── cover_1200x900.png  # TOY 4:3 封面（深空蓝主题 + 哈士喵）
 ├── tools/
 │   ├── build_catkeys.py  # 由原始「网页钢琴入门.html」生成改名后的 index.html
 │   └── build_dist.py     # 把内嵌 base64 图外置，产出 ≤1MB 的 dist/
@@ -105,7 +110,7 @@ git branch -M main
 git push -u origin main
 ```
 
-> 本仓库示例账号为 `604665656`（参考项目 qingcong-rhythm 所用）；请替换为你自己的账号。GitHub 连接器当前未授权，无法由本助手代推，请按上述命令自行推送。
+> 本仓库已推送至 `604665656/catkeys`（`main` 分支）。如需推到自己的账号，把 `origin` 换成你的仓库地址即可。
 
 ---
 
