@@ -1,0 +1,9 @@
+# 本地自测 / 校验产物
+_check.js
+*.log
+.DS_Store
+Thumbs.db
+node_modules/
+
+# 上架投稿物料（如有）
+/deliver/
