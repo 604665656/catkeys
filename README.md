@@ -10,7 +10,7 @@
 
 > **仓库**：<https://github.com/604665656/catkeys>
 > **开发看板**：<https://github.com/users/604665656/projects/10>
-> **B 站 Toy**：提交审核中（`catkeys-toy.zip` + `cover_1200x900.png`）
+> **B 站 Toy**：已公开上架（2026-11-07）· <https://www.bilibili.com/toy/n6ivNJRNYEx64fID/index.html>
 >
 > 如需自行改名，改 `index.html` 里的 `<title>`、`品牌`、`哈士喵` 文案，并重新跑 `tools/build_catkeys.py` 即可。
 
